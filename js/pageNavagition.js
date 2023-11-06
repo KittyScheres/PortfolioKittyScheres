@@ -7,4 +7,6 @@ $(document).ready(function () {
 		page_source = "aboutMe";
 	}
 	$("#contentField").load("./../pages/" + page_source + ".html");
+	$("#localStyle").attr("href", "./../css/" + page_source + ".html");
+	$("#" + page_source).addClass("Active");
 });
