@@ -1,14 +1,44 @@
 <html lang="en">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8">
         <title>Portfolio site Kitty Scheres</title>
-        <style>
-            h1 {
-                text-align: center;
-            }
-        </style>
+
+        <!-- Main css -->
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- Bootstrap reference -->
+        <link rel="stylesheet" href="./libraries/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./libraries/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css">
     </head>
     <body>
-        <h1>This page is still under construction</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Nav bar -->
+                <div id="navbar" class="col-md-3">
+                    <nav>
+                        <h1 >Kitty Scheres</h1>
+                        <h2 >Generalist programmer</h2>
+                        <hr/>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active"><a href="./index.html">About me</a></li>
+                            <li role="presentation"><a href="#">Solo projects</a></li>
+                            <li role="presentation"><a href="#">Team projects</a></li>
+                            <li role="presentation"><a href="#">My skills</a></li>
+                            <li role="presentation"><a href="#">Contact info</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Content -->
+                <div id="contentField" class="col-md-9">
+                    <!-- This is where the content will be placed -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Jquery reference -->
+        <script src="./libraries/jquery-3.7.2/js/jquery-3.7.1.min.js"></script>
+        <!-- Bootstrap reference -->
+        <script src="./libraries/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+        <!-- Page navigation -->
+        <script src="./js/pageNavagition.js"></script>
     </body>
 </html>

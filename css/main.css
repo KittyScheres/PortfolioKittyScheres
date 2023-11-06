@@ -1,0 +1,46 @@
+/* Fonts */
+@font-face {
+    font-family: playpenSans;
+    src: url("./../fonts/Playpen_Sans/static/PlaypenSans-Regular.ttf");
+}
+
+/* Navigation bar */
+#navbar {
+    background-color: #3c2a4d;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#navbar h1, 
+#navbar h2{ 
+    text-align: center;
+    color: #e0f0ea;
+}
+
+#navbar a{
+    color: #e0f0ea;
+    font-size: 1.5em;
+}
+
+#navbar li.active a, 
+#navbar li.active a:focus, 
+#navbar li.active a:hover {
+    background-color: #7191a8
+}
+
+#navbar li:hover a,
+#navbar li:hover a:focus {
+    background-color: #574f7d;
+}
+
+#navbar hr {
+    border-top-color: #e0f0ea;
+}
+
+/* Content field */
+#contentField {
+    background-color: #503a65;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
