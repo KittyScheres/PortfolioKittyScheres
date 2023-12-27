@@ -1,36 +1,11 @@
 var projects = [
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"},
-    {name: "Test", description: "Test", imageURL: "test", project: "Test"}
+    {name: "R-type", description: "This is a recreation of the clasic arcade game R-type.", imageURL: "test", project: "R-type"}
 ];
 
 $(document).ready(function () {
 	projects.forEach(function (item) {
         $("#projectList").append(
-            "<div >" +
+            "<div>" +
             "   <img>" +
             "   <h3>" + item.name + "</h3>" +
             "   <p>" + item.description + "</p>" +
