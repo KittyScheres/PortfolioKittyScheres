@@ -2,7 +2,7 @@ var projects = [
     {name: "Camp champ", description: "Be the champ of the camp.", imageURL: "test", project: "CampChamp"}
 ];
 
-$("#projectList").load(function () {
+$("#projectList").on("load", function () {
 	projects.forEach(function (item) {
         $("#projectList").append(
             "<div>" +
