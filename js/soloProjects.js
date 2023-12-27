@@ -2,7 +2,7 @@ var projects = [
     {name: "R-type", description: "This is a recreation of the clasic arcade game R-type.", imageURL: "test", project: "R-type"}
 ];
 
-$("#projectList").ready(function () {
+$("#projectList").load(function () {
 	projects.forEach(function (item) {
         $("#projectList").append(
             "<div>" +
