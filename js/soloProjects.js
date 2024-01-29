@@ -8,7 +8,7 @@ $("#projectList").ready(function () {
 	projects.forEach(function (item) {
         if(visible) {
             $("#projectList").append(
-                "<a href=\"./index.html?game=" + item.project + "\">" +
+                "<a href=\"./index.html?page=\"soloProjects\"&game=" + item.project + "\">" +
                 "   <div class=\"Game\">" +
                 "       <img>" +
                 "       <h3>" + item.name + "</h3>" +

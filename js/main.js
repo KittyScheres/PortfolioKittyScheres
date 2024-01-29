@@ -5,16 +5,26 @@
 $(document).ready(function () {
 	// Get the page from the link `?page=pageName`
 	const url_params = new URLSearchParams(window.location.search);
-	page_source = url_params.get("page");
+	pageSource = url_params.get("page");
+	projectSource = url_params.get("game");
 	
-	// Get about me page by default
-	if (page_source == null) {
-		page_source = "aboutMe";
+	// Check if a project page needs to be loaded
+	if(projectSource == null) {
+		// Get about me page by default
+		if (pageSource == null) {
+			pageSource = "aboutMe";
+		}
+
+		// Set content for the selected page
+		$("#contentField").load("./../pages/" + pageSource + ".html");
+		$("#localStyle").attr("href", "./css/" + pageSource + ".css");
+		$("#localFunctionality").attr("src", "./js/" + pageSource + ".js");
+		$("#" + pageSource).addClass("Active");
+	} else {
+		// Set content for the project
+		$("#contentField").load("./../pages/projects/" + projectSource + ".html");
+		$("#localStyle").attr("href", "./css/project.css");
+		$("#localFunctionality").attr("src", "./js/project.js");
+		$("#" + pageSource).addClass("Active");
 	}
-	
-	// Set content for the selected page
-	$("#contentField").load("./../pages/" + page_source + ".html");
-	$("#localStyle").attr("href", "./css/" + page_source + ".css");
-	$("#localFunctionality").attr("src", "./js/" + page_source + ".js");
-	$("#" + page_source).addClass("Active");
 });
