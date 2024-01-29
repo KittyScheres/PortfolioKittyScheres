@@ -16,13 +16,13 @@ $(document).ready(function () {
 		}
 
 		// Set content for the selected page
-		$("#contentField").load("./../pages/" + pageSource + ".html");
+		$("#contentField").load("./pages/" + pageSource + ".html");
 		$("#localStyle").attr("href", "./css/" + pageSource + ".css");
 		$("#localFunctionality").attr("src", "./js/" + pageSource + ".js");
 		$("#" + pageSource).addClass("Active");
 	} else {
 		// Set content for the project
-		$("#contentField").load("./../pages/projects/" + projectSource + ".html");
+		$("#contentField").load("./pages/projects/" + projectSource + ".html");
 		$("#localStyle").attr("href", "./css/project.css");
 		$("#localFunctionality").attr("src", "./js/project.js");
 		$("#" + pageSource).addClass("Active");

@@ -1,6 +1,9 @@
 #description{
-    border-width: 4px;
-    border-radius: 15;
+    padding: 2%;
+    border-width: 0.04in;
+    border-style: solid;
+    border-radius: 0.5in;
     border-color: #3c2a4d;
     background-color: #95adbe;
+    color: #503a65 !important;
 }
