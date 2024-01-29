@@ -6,17 +6,19 @@ var projects = [
 ];
 
 $("#projectList").ready(function () {
-	projects.forEach(function (item) {
-        if (item.visible){
-            $("#projectList").append(
-                "<a href=\"./index.html?page=teamProjects&game=" + item.project + "\">" +
-                "   <div class=\"Game\">" +
-                "       <img>" + 
-                "       <h3>" + item.name + "</h3>" +
-                "       <p>" + item.description + "</p>" +
-                "   </div>" +
-                "</a>"
-            );
-        }
-    });
+    setTimeout(() => {
+        projects.forEach(function (item) {
+            if (item.visible){
+                $("#projectList").append(
+                    "<a href=\"./index.html?page=teamProjects&game=" + item.project + "\">" +
+                    "   <div class=\"Game\">" +
+                    "       <img>" + 
+                    "       <h3>" + item.name + "</h3>" +
+                    "       <p>" + item.description + "</p>" +
+                    "   </div>" +
+                    "</a>"
+                );
+            }
+        });
+    }, 500);
 });
