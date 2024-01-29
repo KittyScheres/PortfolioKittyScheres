@@ -1,0 +1,25 @@
+.category{
+    background-color: #95adbe;
+    border-radius: 0.5in;
+    margin-bottom: 3vh;
+}
+
+.category,
+.category h1 {
+    color: #503a65 !important;
+}
+
+.category .row{
+    margin-bottom: 2vh;
+}
+
+.title,
+.content{
+    text-align: center;
+}
+
+.content{
+    background-color: #574f7d;
+    color: #e0f0ea !important;
+    border-radius: 0.5in;
+}
