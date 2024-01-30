@@ -1,6 +1,9 @@
 .category{
     background-color: #95adbe;
-    border-radius: 0.5in;
+    border-radius: 0.5in; 
+    border-width: 0.04in;
+    border-style: solid;
+    border-color: #3c2a4d;
     margin-bottom: 3vh;
 }
 
@@ -22,6 +25,9 @@
     background-color: #574f7d;
     color: #e0f0ea !important;
     border-radius: 0.5in;
+    border-width: 0.04in;
+    border-style: solid;
+    border-color: #3c2a4d;
 }
 
 .content img{
