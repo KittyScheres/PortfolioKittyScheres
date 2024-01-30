@@ -23,3 +23,8 @@
     color: #e0f0ea !important;
     border-radius: 0.5in;
 }
+
+.content img{
+    width: 10vw;
+    margin: 1vw 0;
+}

@@ -20,5 +20,5 @@ $("#projectList").ready(function () {
                 );
             }
         });
-    }, 500);
+    }, 250);
 });
