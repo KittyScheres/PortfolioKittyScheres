@@ -1,0 +1,22 @@
+#container{
+    background-color: #95adbe;
+    border-width: 0.04in;
+    border-style: solid;
+    border-color: #3c2a4d;
+}
+
+#container p,
+#container a,
+#container h1,
+#container h2,
+#container h3{
+    color: #503a65 !important;
+}
+
+#container hr{
+    border-top-color: #503a65 !important;
+}
+
+.sub{
+    margin-left: 1vw;
+}
