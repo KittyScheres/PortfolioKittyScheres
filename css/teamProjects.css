@@ -9,7 +9,8 @@
     width: 5%;
 }
 
-.Game{
+.game{
+    height: 20vh;
     border-width: 0.04in;
     border-style: solid;
     border-radius: 0.15in;
@@ -18,7 +19,17 @@
     margin-bottom: 1.5vh;
 }
 
-.Game h3,
-.Game p{
+.game img{
+    height: 100%;
+    float: left;
+    border-radius: 0.1in;
+}
+
+.game h3,
+.game p{
     color: #503a65 !important;
+}
+
+.text{
+    margin-left: 32%;
 }
