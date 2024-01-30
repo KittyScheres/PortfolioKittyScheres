@@ -1,3 +1,17 @@
+#picture{
+    display: flex;
+    justify-content: center;
+}
+
+#picture img{
+    height: 48vh;
+    border-width: 0.04in;
+    margin-bottom: 2vh;
+    border-radius: 15in;
+    border-style: solid;
+    border-color: #3c2a4d;
+}
+
 #description{
     padding: 2%;
     border-width: 0.04in;
