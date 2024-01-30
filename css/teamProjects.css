@@ -8,3 +8,17 @@
     margin-top: 2%;
     width: 5%;
 }
+
+.Game{
+    border-width: 0.04in;
+    border-style: solid;
+    border-radius: 0.15in;
+    border-color: #3c2a4d;
+    background-color: #95adbe;
+    margin-bottom: 1.5vh;
+}
+
+.Game h3,
+.Game p{
+    color: #503a65 !important;
+}
