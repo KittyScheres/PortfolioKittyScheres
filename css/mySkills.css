@@ -1,14 +1,18 @@
+
+
 .category{
     background-color: #95adbe;
     border-radius: 0.5in; 
     border-width: 0.04in;
     border-style: solid;
     border-color: #3c2a4d;
+    width: 95%;
+    margin-left: 2.5% !important;
     margin-bottom: 3vh;
 }
 
 .category,
-.category h1 {
+.category h1{
     color: #503a65 !important;
 }
 
