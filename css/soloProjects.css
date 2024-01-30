@@ -3,3 +3,8 @@
     overflow-y: auto;
     height: 90vh;
 }
+
+#loading{
+    margin-top: 2%;
+    width: 5%;
+}

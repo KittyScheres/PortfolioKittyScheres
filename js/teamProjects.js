@@ -7,6 +7,8 @@ var projects = [
 
 $("#projectList").ready(function () {
     setTimeout(() => {
+        $("#loading").remove();
+
         projects.forEach(function (item) {
             if (item.visible){
                 $("#projectList").append(
