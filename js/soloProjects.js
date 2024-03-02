@@ -1,7 +1,6 @@
 var projects = [
-    {visible: false, name: "R-type", description: "This is a recreation of the clasic arcade game R-type made using the C++ programming language.", imageURL: "rtypeThumbnail.png", project: "R-type"},
-    {visible: false, name: "LIME CPU raytracer", description: "A CPU based Raytracer made with the C++ programming language.", imageURL: "LIMEThumbnail.png", project: "LIME"},
     {visible: false, name: "[WIP] Constructive Solid Geometry", description: "An implementation of constructive solid geometry with the C++ programming language.", imageURL: "BallThumbnail.png", project: "CSG"},
+    {visible: false, name: "[WIP] OpenXR project", description: "A project I created to learn about the OpenXR api for implementing VR/AR support.", imageURL: "BallThumbnail.png", project: "OpenXR"},
 ];
 
 $("#projectList").ready(function () {

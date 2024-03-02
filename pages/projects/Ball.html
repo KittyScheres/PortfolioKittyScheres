@@ -17,57 +17,35 @@
         <h2>Table of contents</h2>
         <ul>
             <li>
-                <a href="#UGC">User generated content</a>
-                <li class="sub">
-                    <a href="#modio">Mod.io</a>
-                </li>
+                <a href="#modio">Mod.io</a>
             </li>
             <li>
-                <a href="#Tools">Tools</a>
-                <li class="sub">
-                    <a href="#UnRe">Undo/Redo</a>
-                </li>
+                <a href="#UnRe">Undo/Redo</a>
             </li>
         </ul>
     </div>
     <hr/>
     <!-- Heading -->
-    <div id="UGC">
-        <h2>User generated content</h2>
+    <div id="modio">
+        <h2>Mod.io</h2>
         <p>
-            <!-- Description of heading -->
+            One of my responsibilities in this project is to implement the Mod.io SDK and set it up within our project. 
+            Mod.io is a service for hosting user-generated content. By using the SDK, a user can upload, download, and manage 
+            custom levels for our game. For this, I created an abstraction class in our engine that is used by the game to interact 
+            with the Mod.io service without needing to know the specifics of the Mod.io SDK.
         </p>
-        
-        <!-- Sub heading -->
-        <div id="modio">
-            <h3>Mod.io</h3>
-            <p>
-                One of my responsibilities in this project is to implement the Mod.io SDK and set it up within our project. 
-                Mod.io is a service for hosting user-generated content. By using the SDK, a user can upload, download, and manage 
-                custom levels for our game. For this, I created an abstraction class in our engine that is used by the game to interact 
-                with the Mod.io service without needing to know the specifics of the Mod.io SDK.
-            </p>
-        </div>
     </div>
     <hr/>
     <!-- Heading -->
-    <div id="Tools">
-        <h2>Tools</h2>
+    <div id="UnRe">
+        <h2>Undo/Redo</h2>
         <p>
-            <!-- Description of heading -->
+            Another one of my responsibilities on the project was to implement an undo and redo functionality for our level editor. 
+            To implement this, I used the command design pattern for creating definitions of actions that can be performed in the 
+            level editor. I collect the performed actions in a stack of actions when an action needs to be undone the undo function 
+            and the action at the top of the stack is called. If the action needs to be redone, the redo function is called. 
+            If a new action is performed after actions have been undone, the undone actions are invalidated. If the stack is full 
+            and a new action needs to be added, the action at the bottom of the stack is removed.
         </p>
-        
-        <!-- Sub heading -->
-        <div id="UnRe">
-            <h3>Undo/Redo</h3>
-            <p>
-                Another one of my responsibilities on the project was to implement an undo and redo functionality for our level editor. 
-                To implement this, I used the command design pattern for creating definitions of actions that can be performed in the 
-                level editor. I collect the performed actions in a stack of actions when an action needs to be undone the undo function 
-                and the action at the top of the stack is called. If the action needs to be redone, the redo function is called. 
-                If a new action is performed after actions have been undone, the undone actions are invalidated. If the stack is full 
-                and a new action needs to be added, the action at the bottom of the stack is removed.
-            </p>
-        </div>
     </div>
 </div>

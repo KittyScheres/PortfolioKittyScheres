@@ -2,11 +2,13 @@
 <div id="container" class="col-md-8">
     <!-- title screen -->
     <div>
-        <h1>Wombat Combat</h1>
+        <h1>Wombat Combat engine</h1>
         <img/><!-- Image of game -->
         <p>
-            The wombat combat FPS engine is an engine based on the quake engine and it uses trench broom as its level editor. 
-            I worked on this project with a team of 7 programmers for the duration of half a school year.
+            The wombat combat engine is a first-person shooter game engine I and 7 other people worked on over the duration of 16 weeks. 
+            This engine was made to work on both Windows computers and the PlayStation 5 While working on the project I took on the 
+            specialization of engine programmer. My main contributions to this project are related to the loading of level geometry and 
+            entity data from TrenchBroom’s BSP files and the implementation of Bullet physics for this project.
         </p>
     </div>
     <hr/>
@@ -15,33 +17,56 @@
         <h2>Table of contents</h2>
         <ul>
             <li>
-                <a>Level loading</a>
+                <a href="#BSP">Quack BSP-level file loading</a>
             </li>
             <li>
-                <a>Physics</a>
+                <a href="#Physics">Bullet physics implementation</a>
             </li>
         </ul>
     </div>
     <hr/>
     <!-- Heading -->  
-    <div>
-        <h2>Level loading</h2>
+    <div id="BSP">
+        <h2>Quack BSP-level file loading</h2>
         <p>
-            One of my responsibilities for this project was to load the data stored in the .BSP files and make it usable for our 
-            engine. For this, I looked through the source code of the quake engine, and with some help, I managed to implement the 
-            loading of levels.
+            As level editor for our engine, we decided to make use of the TrenchBroom level editor as the designers in our year were 
+            using it to create quake levels, this allowed us to make use of their levels to test our engine features.
+        </p>
+        <p>
+            Quake and its levels have a lot of features, of these features the Wombat engine supports the following:
+        </p>
+        <ul>
+            <li>The loading and rendering of brush-based geometry</li>
+            <li>The rendering of textures applied to the brushes</li>
+            <li>The rendering of lightmaps applied to the brushes</li>
+            <li>The loading of custom entities as defined in Trenchbroom</li>
+            <li>The loading of brush-based entities as defined in TrenchBroom</li>
+            <li>The loading of trigger areas as defined in TrenchBroom</li>
+            <li>The loading and implementing of event triggers as defined in Trenchbroom</li>
+        </ul>
+        <p>
+            With the implementation of these features, we were able to create interesting and interactive levels in the style of the 
+            first Quake game.
         </p>
     </div>
     <hr/>
     <!-- Heading -->  
-    <div>
-        <h2>Physics</h2>
+    <div id="Physics">
+        <h2>Bullet physics implementation</h2>
         <p>
-            For the physics in our engine, we make use of the bullet physics library. Implementing this was originally somebody 
-            else their task, but when they were unable to take care of this task, I took over the task. While working with Bullet 
-            in our project we ran into many issues where Bullet would crash when certain collisions happened. I eventually managed 
-            to fix these issues and in the end, we were able to deliver a stable enough build of our project which was greatly 
-            enjoyed at playday.
+            For the physics of the Wombat engine, we decided to make use of the Bullet physics library. I had worked with this library 
+            before, so using this previous knowledge I was able to set it up quite fast.
         </p>
+        <p>
+            Using Bullet I implemented the following features:
+        </p>
+            <ul>
+                <li>The capsule collider for the player</li>
+                <li>The mesh collider for the Level loaded from a BSP</li>
+                <li>Raycasts</li>
+                <li>Trigger boxes that notify connected objects when they have been entered</li>
+                <li>Collision event callbacks to notify objects a collision occurred</li>
+                <li>Collision groups for enabling/disabling collisions between certain groups</li>
+            </ul>
     </div>
 </div>

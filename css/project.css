@@ -9,7 +9,8 @@
 #container a,
 #container h1,
 #container h2,
-#container h3{
+#container h3,
+#container ul li{
     color: #503a65 !important;
 }
 
