@@ -18,6 +18,15 @@
     border-top-color: #503a65 !important;
 }
 
+#container video,
+#container img {
+    width: 100%;
+    border-width: 0.04in;
+    border-style: solid;
+    border-color: #3c2a4d;
+    margin-bottom: 2%;
+}
+
 .sub{
     margin-left: 1vw;
 }
