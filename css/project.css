@@ -27,6 +27,15 @@
     margin: 1% 0%;
 }
 
+.small{
+    text-align: center;
+}
+
+.small video,
+.small img{
+    width: 50% !important;
+}
+
 .sub{
     margin-left: 1vw;
 }
