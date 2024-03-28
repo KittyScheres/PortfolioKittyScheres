@@ -18,6 +18,11 @@
     border-top-color: #503a65 !important;
 }
 
+#container iframe{
+    aspect-ratio: 560/315;
+}
+
+#container iframe,
 #container video,
 #container img {
     width: 100%;
@@ -31,7 +36,6 @@
     text-align: center;
 }
 
-.small video,
 .small img{
     width: 50% !important;
 }
