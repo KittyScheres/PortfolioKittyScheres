@@ -4,7 +4,7 @@
 }
 
 #picture img{
-    height: 48vh;
+    height: 38vh;
     border-width: 0.04in;
     margin-bottom: 2vh;
     border-radius: 15in;
@@ -20,4 +20,15 @@
     border-color: #3c2a4d;
     background-color: #95adbe;
     color: #503a65 !important;
+}
+
+@media screen and (min-width: 992px) {
+    #picture img{
+        height: 48vh;
+        border-width: 0.04in;
+        margin-bottom: 2vh;
+        border-radius: 15in;
+        border-style: solid;
+        border-color: #3c2a4d;
+    }
 }
