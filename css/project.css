@@ -36,6 +36,7 @@
     text-align: center;
 }
 
+.small video,
 .small img{
     width: 50% !important;
 }
