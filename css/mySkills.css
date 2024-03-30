@@ -67,6 +67,10 @@
         margin-bottom: 0% !important;
     }
     
+    .title {
+        margin-bottom: 20px !important;
+    }
+
     .content{
         width: 16.66666667% !important;
         margin-left: 0% !important;
