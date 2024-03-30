@@ -87,7 +87,7 @@ h2 {
 /* Content field */
 #contentField {
     background-color: #503a65;
-    height: 100vh;
+    height: auto;
     overflow-x: hidden;
     overflow-y: auto;
     font-size: 1.5em;
