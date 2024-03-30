@@ -4,6 +4,10 @@
     src: url("./../fonts/Playpen_Sans/static/PlaypenSans-Regular.ttf");
 }
 
+body{
+    background-color: #503a65 !important;
+}
+
 h1{
     text-align: center;
 }
