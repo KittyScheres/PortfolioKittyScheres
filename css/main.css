@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Navigation bar */
 #navbar {
     background-color: #3c2a4d;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
 }
 
@@ -45,9 +45,18 @@ h1, h2, h3, h4, h5, h6, p {
     color: #e0f0ea;
 }
 
+h1 {
+    font-size: 3em !important;
+}
+
+h2 {
+    font-size: 2.5em !important;
+}
+
 #navbar a{
+    text-align: center;
     color: #e0f0ea;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #navbar li.active a, 
@@ -68,11 +77,11 @@ h1, h2, h3, h4, h5, h6, p {
 .social{
     display: flex;
     justify-content: center;
-    margin: 5vh 0;
+    margin: 2.5vh 0;
 }
 
 .social img{
-    height: 10vh;
+    height: 5vh;
 }
 
 /* Content field */
@@ -81,4 +90,68 @@ h1, h2, h3, h4, h5, h6, p {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 992px) {
+    /* Navigation bar */
+    #navbar {
+        background-color: #3c2a4d;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #navbar h1, 
+    #navbar h2 { 
+        text-align: center;
+        color: #e0f0ea;
+    }
+
+    h1 {
+        font-size: 36px !important;
+    }
+    
+    h2 {
+        font-size: 30px !important;
+    }
+
+    #navbar a{
+        text-align: left;
+        color: #e0f0ea;
+        font-size: 1.5em;
+    }
+
+    #navbar li.active a, 
+    #navbar li.active a:focus, 
+    #navbar li.active a:hover {
+        background-color: #7191a8
+    }
+
+    #navbar li:hover a,
+    #navbar li:hover a:focus {
+        background-color: #574f7d;
+    }
+
+    #navbar hr {
+        border-top-color: #e0f0ea;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        margin: 5vh 0;
+    }
+
+    .social img{
+        height: 10vh;
+    }
+
+    /* Content field */
+    #contentField {
+        background-color: #503a65;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        font-size: 14px;
+    }
 }
