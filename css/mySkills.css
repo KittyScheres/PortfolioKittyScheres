@@ -83,7 +83,7 @@
     }
     
     .content img{
-        height: 20vh;
+        width: auto;
         margin: 3vh 0;
     }
 }
