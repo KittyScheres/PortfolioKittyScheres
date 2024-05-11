@@ -1,3 +1,7 @@
+#container .warning {
+    color: #8a6d3b !important;
+}
+
 #container{
     background-color: #95adbe;
     border-width: 0.04in;
