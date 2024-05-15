@@ -1,8 +1,8 @@
 var projects = [
-    {visible: true, name: "R-type", description: "A partial recreation of the R-type arcade game.", language: "C++", duration: "6 weeks", type: "Game", platforms: "Windows", imageURL: "rtypethumbnail.png", project: "R-type"},
-    {visible: true, name: "Lime raytracer", description: "A CPU raytracer.", language: "C++", duration: "8 weeks", type: "Renderer", platforms: "Windows", imageURL: "LIMEThumbnail.png", project: "Lime"},
-    {visible: false, name: "[WIP] Constructive Solid Geometry", description: "An implementation of constructive solid geometry with the C++ programming language.", language: "C++", duration: "Unknown", type: "Learning", platforms: "Windows", imageURL: "DefaultThumbnail.png", project: "CSG"},
     {visible: true, name: "OpenXR tutorial", description: "An openXR tutorial I followed to get a better understanding of how to implement AR/VR into my own projects.", language: "C++", duration: "2 weeks", type: "Learning", platforms: "Windows", imageURL: "DefaultThumbnail.png", project: "OpenXrTutorial"},
+    {visible: false, name: "[WIP] Constructive Solid Geometry", description: "An implementation of constructive solid geometry with the C++ programming language.", language: "C++", duration: "Unknown", type: "Learning", platforms: "Windows", imageURL: "DefaultThumbnail.png", project: "CSG"},
+    {visible: true, name: "Lime raytracer", description: "A CPU raytracer.", language: "C++", duration: "8 weeks", type: "Renderer", platforms: "Windows", imageURL: "LIMEThumbnail.png", project: "Lime"},
+    {visible: true, name: "R-type", description: "A partial recreation of the R-type arcade game.", language: "C++", duration: "6 weeks", type: "Game", platforms: "Windows", imageURL: "rtypethumbnail.png", project: "R-type"},
 ];
 
 $("#projectList").ready(function () {
