@@ -18,12 +18,14 @@ $("#projectList").ready(function () {
                     "       <div class=\"text\">" +
                     "           <h3>" + item.name + "</h3>" +
                     "           <p>" + item.description + "</p>" +
-                    "           <p class=\"sameLine\"><b>Language:</b> " + item.language + "</p>" +
-                    "           <p class=\"sameLine\"><b>Duration:</b> " + item.duration + "</p>" +
-                    "           <p class=\"sameLine\"><b>Type:</b> " + item.type + "</p>" +
-                    "           <p class=\"sameLine\"><b>Team size:</b> " + item.teamSize + " people</p>" +
-                    "           <p class=\"sameLine\"><b>Platforms:</b> " + item.platforms + "</p>" +
-                    "           <p class=\"sameLine\"><b>Team role:</b> " + item.teamRole + "</p>" +
+                    "           <div class=\"tagsContainer\">" +
+                    "               <p class=\"sameLine\"><b>Language:</b> " + item.language + "</p>" +
+                    "               <p class=\"sameLine\"><b>Duration:</b> " + item.duration + "</p>" +
+                    "               <p class=\"sameLine\"><b>Type:</b> " + item.type + "</p>" +
+                    "               <p class=\"sameLine\"><b>Team size:</b> " + item.teamSize + " people</p>" +
+                    "               <p class=\"sameLine\"><b>Platforms:</b> " + item.platforms + "</p>" +
+                    "               <p class=\"sameLine\"><b>Team role:</b> " + item.teamRole + "</p>" +
+                    "           </div>" +
                     "       </div>" +
                     "   </div>" +
                     "</a>"

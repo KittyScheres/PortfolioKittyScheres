@@ -43,6 +43,13 @@ h3 {
 .sameLine{
     margin-right: 0%;
     float: none;
+    margin: 1% 1%
+}
+
+.tagsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -84,7 +91,13 @@ h3 {
     }
 
     .sameLine{
+        margin: 0% 0%;
+        margin-bottom: 1%;
         margin-right: 2%;
         float: left;
     } 
+
+    .tagsContainer{
+        display: block;
+    }
 }
