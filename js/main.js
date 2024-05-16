@@ -12,7 +12,7 @@ $(document).ready(function () {
 	if(projectSource == null) {
 		// Get about me page by default
 		if (pageSource == null) {
-			pageSource = "aboutMe";
+			pageSource = "home";
 		}
 
 		// Set content for the selected page
