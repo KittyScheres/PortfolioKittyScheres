@@ -28,6 +28,10 @@
     color: #503a65 !important;
 }
 
+#description a{
+    color: #503a65 !important;
+}
+
 /* Highlighted projects */
 #projectList {
     overflow-x: hidden;
@@ -86,7 +90,7 @@ h3 {
 @media screen and (min-width: 992px) {
     /* About me page */
     #picture img{
-        height: 48vh;
+        height: 43vh;
         border-width: 0.04in;
         margin-bottom: 2vh;
         border-radius: 15in;
